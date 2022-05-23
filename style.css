@@ -1,0 +1,394 @@
+.body-home {
+background-color: #FCD5CE;
+background-size: cover;
+background-position: top;
+margin: 0px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Courgette';
+  font-size: 65px ;
+  color: #F8EDEB ;
+  text-align: center;
+}
+
+.title2 {
+  font-family: 'Courgette';
+  font-size: 30px ;
+  text-align: center;
+}
+
+.title3 {
+  font-family: 'Courgette';
+  font-size: 30px ;
+  text-align: center;
+}
+
+.header{
+  font-family: 'Courgette';
+  font-size: 65px ;
+  color:#9FFFCB;
+  width: 100%;
+}
+
+nav{
+  background-color: #FEC5BB ;
+  display: flex;
+  padding: 2% 6%; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav img{
+  height: 100px;
+  width: 150 px;
+
+}
+
+
+button {
+  display: flex;
+  flex-direction: row;
+  background-color: #FAE1DD;
+  border: none;
+  color: white;
+  padding: 6px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+}
+
+ button:hover{
+    background-color: rgb(133, 216, 236);
+    border: 1px solid rgb(1, 136, 255);
+    color: rgb(132, 197, 255);
+  }
+
+.nav-links{
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+
+h2 {
+  color: black
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.dropbtn {
+  background-color: #00A5CF;
+  color: white;
+  padding: 6px 28px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(231, 229, 229);
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(5, 80, 165);
+  font-size: 26px ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(255, 253, 253, 0.596);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ffffff75;}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FEC5BB;
+   color: white;
+   padding: 6px 28px;
+   display: flex;
+  padding: 2% 6%; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stem{
+  display:flex;
+  justify-content:flex-start ;
+  flex-wrap: wrap;
+  border: 6px solid #9FFFCB;
+  height: 300px;
+  width: 400px ;
+  object-fit: cover;
+  padding: 8px 8px;
+  margin-right: 200px;
+  margin-left: 60px;
+  display: inline ;
+}
+
+.sign-up {
+  font-family: 'Courgette';
+  font-size: 65px ;
+  color:rgb(34, 233, 203);
+  
+}
+
+
+
+p1 {
+font-size: 22px;
+ font-family: "Helvetica" ;
+ display: inline;
+ color:#00A5CF
+}
+
+.name-input, .email-input {
+  background-color: rgba(115, 111, 126, 0.61);
+  border: none;
+  border-bottom: 1px solid #E9E7F0;
+  outline: rgba(73, 70, 83, 0.678);
+  color: rgb(253, 253, 253);
+  width: 200px;
+  font-size: 120%;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 2px 4px;
+}
+
+label {
+  font-size: 24px;
+  color:#37D2BB;
+}
+
+button1 {
+  display: flex;
+  background-color: rgb(42, 210, 216);
+  border: none;
+  color:white;
+  padding: 6px 28px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+
+button1:hover{
+    background-color: rgba(177, 222, 243, 0.822);
+    border: 1px solid rgb(1, 136, 255);
+    color: rgb(91, 210, 247);
+  }
+
+give {
+  display:flex;
+  display:block;
+}
+
+.sign-container {
+  display: block;
+}
+
+button1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #00A5CF;
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  align-items: center;
+  width:45px;
+}
+
+.give{ 
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  padding: 10px 10px;
+  display: block;
+}
+
+h3{ 
+  font-family: 'Courgette';
+  font-size: 55px ;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  margin-left:20px;
+}
+
+.donate-box{
+  display: flex;
+  align-items:flex-start;
+  border:6px solid #00A5CF;
+  background-color: #00A5CF;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 24px ;
+  padding-bottom: 10px; 
+  margin-top: 150px;
+  margin-bottom: 100px ;
+  margin-right: 100px ;
+  margin-left: 60px;
+}
+
+.give-img{
+  display: flex;
+  align-items: justify-start;
+  justify-content: space-around;
+}
+
+.News{
+  display: flex;
+  align-items:flex-start;
+  border:6px solid #00A5CF;
+  background-color: #00A5CF;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 24px ;
+  padding-bottom: 10px; 
+  margin-top: 150px;
+  margin-bottom: 100px ;
+  margin-right: 100px ;
+  margin-left: 60px;
+}
+
+.latest {
+  font-family: 'Courgette';
+  font-size: 55px ;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  margin-left:20px;
+}
+
+
+
+.new{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 250px;
+  object-fit: cover;
+  padding-top: 10px 10px;
+  
+}
+
+p3{
+  font-family: 'Courgette';
+  font-size: 18px ;
+  color:azure;
+  margin: 20px;
+  display:inline;
+}
+
+.donate-text{
+  margin-left:30px;
+}
+
+.news-text{
+  margin-left:24px;
+}
+
+.inline{
+  display:inline;
+}
+
+
+button5 {
+  background-color: #0ACEFF;
+  border: none;
+  color: white;
+  padding: 6px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+}
+
+ button5:hover{
+    background-color: rgb(133, 216, 236);
+    border: 1px solid rgb(1, 136, 255);
+    color: rgb(132, 197, 255);
+}
+
+h3 {
+  text-decoration: none;
+  color: black
+
+}
+
+.bottom-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.upper-container {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  margin: 2em;
+}
+
+.about.html {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canvasParent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
