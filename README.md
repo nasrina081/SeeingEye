@@ -1,9 +1,10 @@
-# seeing-eyes
+# Seeing Eye
 
-Seeing Eyes helps the visually impaired identify objects via a webcam. 
-If a person holds up an object to the webcam, the website will identify it via a text blurb at the bottom. 
-Seeing Eyes can recognize plastic bottles, notebooks, pens, scissors, vitamin bottles, gum, cellphones, people, and cups.
+Passionate about accessibility in tech and AI enthusiast 🌟
+🏆 Winner of Best Beginner College Hack at Technica 2021 🏅
 
-I was inspired to create this website because of an app I heard of that allows blind and seeing people to connect. 
-The app allows the seeing person to help identify what the object they're holding is. The app always had such a large queue of seeing 
-people wanting to help the blind, so I never got a chance to help. However, now I can help way more than one person!
+👁️‍🗨️ Presenting Seeing Eye: Empowering the visually impaired to identify objects through a webcam. When an object is shown to the webcam, the website provides instant object identification via a text blurb. From plastic bottles to cellphones, Seeing Eyes recognizes a variety of items.
+
+🌟 Inspired by an app connecting the blind and sighted, I developed this project to provide efficient assistance. Unlike the app's queue, Seeing Eyes helps multiple users without delay. 
+
+📁 Check out the project code and details below!
