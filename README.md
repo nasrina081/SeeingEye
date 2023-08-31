@@ -7,4 +7,4 @@ Passionate about accessibility in tech and AI enthusiast 🌟
 
 🌟 Inspired by an app connecting the blind and sighted, I developed this project to provide efficient assistance. Unlike the app's queue, Seeing Eyes helps multiple users without delay. 
 
-📁 Check out the project code and details below!
+📁 Check out a demo and more details [here](https://devpost.com/software/seeing-eye-f18sc5)
